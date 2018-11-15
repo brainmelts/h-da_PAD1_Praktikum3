@@ -1,3 +1,7 @@
+// Mikrowelle? Die was erhitzt? Oder so?
+// Autor: Suayb Yurdakul
+// Datum: 2018-11-14
+
 #include <iostream>
 #include <string>
 #include "FrozenMeal.h"

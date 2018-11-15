@@ -18,5 +18,19 @@
     <ClCompile Include="main.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="FrozenMeal.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Microwave.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FrozenMeal.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Microwave.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

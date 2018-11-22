@@ -12,7 +12,7 @@ int main() {
     array<int, sumDice> sumEyes = { 0 };
 
     for (int i = 0; i < maxRolls; i++) {
-        int currentRoll = (rand() % 12) + 1;
+        int currentRoll = (rand() % 6 + 1) + (rand() % 6 + 1);
 
         switch (currentRoll) {
         case 1:

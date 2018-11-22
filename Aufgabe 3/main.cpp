@@ -11,16 +11,15 @@ int main() {
     cout << "Programm zur Ausgabe aller Primzahlen zwischen zwei positiven ganzen Zahlen\n\n";
     cout << "Bitte geben Sie zwei positive ganze Zahlen, getrennt durch Leerzeichen, ein (Beispiel: '21 1337') und bestätigen\nSie mit der Enter-Taste: ";
     cin >> a >> b;
+    
+    small = a;
+    big = b;
 
-    if (a < b) {
-        small = a;
-        big = b;
-    }
-    else if(b > a) {
+    if (b < a) {
         small = b;
         big = a;
     }
-    else {
+    else if(a == b) {
         small = 0;
         big = a;
         cout << "Da Sie die selbe Zahl eingegeben haben wurde Ihre Eingabe stattdessen auf 0 und die gewählte Zahl gesetzt.\n\n";

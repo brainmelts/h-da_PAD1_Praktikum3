@@ -19,7 +19,7 @@ int main() {
 
         if (a < 0 || b < 0) {
             check = true;
-            cout << "Bitte geben Sie positive ganze Zahlen ein,\n\n"
+            cout << "Bitte geben Sie positive ganze Zahlen ein,\n\n";
         }
         else {
             check = false;

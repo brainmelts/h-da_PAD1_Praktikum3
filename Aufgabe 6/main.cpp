@@ -10,13 +10,15 @@ using namespace std;
 
 int main() {
     Microwave microwave;
-    FrozenMeal meal1("Eiskalter Kaffee", 250);
+    FrozenMeal meal1("Lasagne", 1000);
 
+    microwave.morePower();
+    microwave.lessPower();
     microwave.morePower();
     microwave.morePower();
     cout << "Leistung Mikrowelle: " << microwave.getPower() << "\n";
 
-    microwave.setPeriod(120);
+    microwave.setPeriod(360);
     cout << "Laufzeit Mikrowelle: " << microwave.getPeriod() << "\n\n";
 
     cout << "Temperatur " << meal1.getName() << ": " << meal1.getTemperature() << "\n";

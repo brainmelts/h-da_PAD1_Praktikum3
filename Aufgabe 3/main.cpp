@@ -6,11 +6,26 @@
 using namespace std;
 
 int main() {
-    unsigned int a, b, small, big, i, j;
+    int a, b;
+    unsigned int small, big, i, j;
+    bool check = true;
 
     cout << "Programm zur Ausgabe aller Primzahlen zwischen zwei positiven ganzen Zahlen\n\n";
-    cout << "Bitte geben Sie zwei positive ganze Zahlen, getrennt durch Leerzeichen, ein (Beispiel: '21 1337') und bestätigen\nSie mit der Enter-Taste: ";
-    cin >> a >> b;
+
+    while (check) {
+        check = true;
+        cout << "Bitte geben Sie zwei positive ganze Zahlen, getrennt durch Leerzeichen, ein (Beispiel: '21 1337') und bestätigen\nSie mit der Enter-Taste: ";
+        cin >> a >> b;
+
+        if (a < 0 || b < 0) {
+            check = true;
+            cout << "Bitte geben Sie positive Zahlen ein,\n\n"
+        }
+        else {
+            check = false;
+        }
+
+    }
     
     small = a;
     big = b;

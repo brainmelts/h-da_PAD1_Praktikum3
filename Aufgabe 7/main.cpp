@@ -1,6 +1,7 @@
 // Vollkommene Zahlen ausrechnen
 // Autor: Suayb Yurdakul
 // Datum: 2018-11-14
+
 #include <iostream>
 using namespace std;
 
